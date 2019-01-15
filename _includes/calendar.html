@@ -9,6 +9,7 @@
             </div>
             <div class="row">
                 <iframe src="https://calendar.google.com/calendar/embed?title=Hello&height=600&wkst=1&bgcolor=%23ffffff&src=ugmun%40deepbio.co.kr&color=%231B887A&ctz=Asia%2FSeoul" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <div id='calendar'></div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -16,4 +17,15 @@
                 </div>
             </div>
         </div>
+        <script>
+            $(function() {
+
+              // page is now ready, initialize the calendar...
+
+              $('#calendar').fullCalendar({
+                // put your options and callbacks here
+              })
+
+            });
+        </script>
     </section>
