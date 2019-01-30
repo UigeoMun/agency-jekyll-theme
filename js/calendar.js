@@ -8,7 +8,7 @@ $(function() {
     themeSystem: 'bootstrap4',
     weekends: true, // will hide Saturdays and Sundays
     header: {
-      left: 'month,agendaWeek,',
+      left: 'agendaWeek,agendaDay',
       center: 'title',
       right: 'addEvent'
     },
