@@ -9,7 +9,6 @@ $(function() {
     weekends: true, // will hide Saturdays and Sundays
     header: {
       left: 'agendaWeek,agendaDay',
-      center: 'title',
       right: 'addEvent'
     },
     customButtons: {
@@ -20,7 +19,7 @@ $(function() {
         }
       }
     },
-    contentHeight: 500,
+    contentHeight: 800,
     eventLimit: true, // for all non-agenda views
     views: {
       agenda: {
