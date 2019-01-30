@@ -5,7 +5,7 @@ $(function() {
   $('#calendar').fullCalendar({
     // put your options and callbacks here
     defaultView: 'agendaWeek',
-    themeSystem: 'bootstrap4',
+    
     weekends: true, // will hide Saturdays and Sundays
     header: {
       left: 'agendaWeek,agendaDay',
